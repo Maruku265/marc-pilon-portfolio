@@ -21,7 +21,7 @@ export default function Entete() {
         width: 80,
         height: 80,
         color: 'white',
-        position: 'absolute',
+        position: 'fixed',
         right: 5,
         top: 5,
         padding: '10px'

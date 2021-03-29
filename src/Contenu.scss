@@ -5,7 +5,7 @@
     font-size: 1.5em;
     color: white;
 
-    h2{
+    h2, h3{
       text-align: center;
     }
 
@@ -16,11 +16,33 @@
       text-align: center;
     }
 
+    .Competences {
+      width: 70%;
+      padding-left: 25%;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      h6 {
+        margin-top: -7%;
+      }
+
+      .NomComp {
+        width: 40%;
+      }
+
+      .Slider {
+        width: 30%;
+      }
+    }
+
     .Projets {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-evenly;
+      flex-wrap: wrap;
     }
 
     a {
