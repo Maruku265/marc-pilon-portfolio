@@ -31,10 +31,6 @@ export default function PiedDePage() {
     return(
         <footer className="PiedDePage" id="Contact">
             <Breadcrumbs aria-label="breadcrumb" color="inherit" >
-                
-                <Typography color="inherit" className={classes.link}>
-                    Contact
-                </Typography>
                 <Typography color="inherit" className={classes.link}>
                     Courriel : marcp265@gmail.com
                 </Typography>
